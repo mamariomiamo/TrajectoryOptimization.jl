@@ -1,5 +1,40 @@
 # TrajectoryOptimization
 
+## Installation Procedure
+### Install Julia
+#### Ubuntu
+Download Julia https://julialang-s3.julialang.org/bin/linux/x64/1.6/julia-1.6.5-linux-x86_64.tar.gz
+
+Extract the folder `julia-1.6.5`, copy and paste to ~/Desktop.
+
+**Add Julia to path**
+
+`gedit .bashrc`, add to the following line to end of the file:
+`export PATH="$PATH:/home/USER/Desktop/julia-1.6.5/bin"`
+
+Replace `USER` with your username.
+
+### Clone repository
+`git clone git@github.com:RoboticExplorationLab/TrajectoryOptimization.jl.git`
+
+OR `git clone https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl.git` if you did not setup Github SSH.
+
+### Checkout to correct branch
+`git checkout distributed_team_lift`
+
+### Activate and Instantiate project environment
+`cd /TrajectoryOptimization.jl/examples/RA-L`
+
+Start Julia in terminal `julia`
+
+Go to package manager `activate .` and then `instantiate`
+
+Go back to julia and `include("distributed.jl")`
+
+**--------------------------------------------------Everything is same as upstream after this-----------------------------------------------------------**
+
+###
+
 ![Build Status](https://travis-ci.org/RoboticExplorationLab/TrajectoryOptimization.jl.svg?branch=master)
 [![codecov](https://codecov.io/gh/RoboticExplorationLab/TrajectoryOptimization.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/RoboticExplorationLab/TrajectoryOptimization.jl)
 [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://RoboticExplorationLab.github.io/TrajectoryOptimization.jl/dev)
