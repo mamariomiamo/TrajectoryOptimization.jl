@@ -27,9 +27,12 @@ OR `git clone https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl
 
 Start Julia in terminal `julia`
 
-Go to package manager `activate .` and then `instantiate`
+Go to package manager by pressing ] then `activate .` and then `instantiate`
 
-Go back to julia and `include("distributed.jl")`
+Go back to julia and `include("distributed.jl")` to run the script.
+
+### What is REPL?
+Julia comes with a full-featured interactive command-line REPL (read-eval-print loop) built into the julia executable.
 
 **--------------------------------------------------Everything is same as upstream after this-----------------------------------------------------------**
 
